@@ -12,6 +12,7 @@
 		0F9A96A51A012E5C00108B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A96A41A012E5C00108B9C /* Images.xcassets */; };
 		0F9A96A81A012E5C00108B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A96A61A012E5C00108B9C /* Main.storyboard */; };
 		0F9A96B41A012E5C00108B9C /* Hillegass_ch5_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A96B31A012E5C00108B9C /* Hillegass_ch5_6Tests.swift */; };
+		0FDFFF4C1A090E5900919EA6 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = 0FDFFF4B1A090E5900919EA6 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		0F9A96AD1A012E5C00108B9C /* Hillegass-ch5-6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hillegass-ch5-6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9A96B21A012E5C00108B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9A96B31A012E5C00108B9C /* Hillegass_ch5_6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hillegass_ch5_6Tests.swift; sourceTree = "<group>"; };
+		0FDFFF4B1A090E5900919EA6 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		0F9A96921A012E5B00108B9C = {
 			isa = PBXGroup;
 			children = (
+				0FDFFF4B1A090E5900919EA6 /* README.MD */,
 				0F9A969D1A012E5C00108B9C /* Hillegass-ch5-6 */,
 				0F9A96B01A012E5C00108B9C /* Hillegass-ch5-6Tests */,
 				0F9A969C1A012E5C00108B9C /* Products */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FDFFF4C1A090E5900919EA6 /* README.MD in Sources */,
 				0F9A96A31A012E5C00108B9C /* ViewController.swift in Sources */,
 				0F9A96A11A012E5C00108B9C /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				0F9A96B91A012E5C00108B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F9A96BA1A012E5C00108B9C /* Build configuration list for PBXNativeTarget "Hillegass-ch5-6Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				0F9A96BC1A012E5C00108B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
